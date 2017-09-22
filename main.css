@@ -8,23 +8,26 @@ body {
 h1 {
   text-align: center;
   font-weight: bold;
-  color:floralwhite;
+  color: floralwhite;
   font-size: 90px;
   font-family: bungee shade;
   margin-top: 10px;
-  
 }
 
-.startbutton{
- animation: bounce 0.35s ease infinite alternate;
+.startbutton {
+  animation: bounce 0.35s ease infinite alternate;
   margin-bottom: 190px;
 }
 
-@keyframes bounce{
-     from {transform: translateY(0);}
-     to   {transform: translateY(-20px);}
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
 }
-  
+
 
 
 .flex {
@@ -45,4 +48,3 @@ h1 {
   background-repeat: no-repeat;
   background-size: 1200px 1200px;
 }
-
