@@ -1,0 +1,48 @@
+body {
+  vertical-align: middle;
+  background-image: url(img/eboy01.gif);
+  background-repeat: no-repeat;
+  background-size: 3200px 3200px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color:floralwhite;
+  font-size: 90px;
+  font-family: bungee shade;
+  margin-top: 10px;
+  
+}
+
+.startbutton{
+ animation: bounce 0.35s ease infinite alternate;
+  margin-bottom: 190px;
+}
+
+@keyframes bounce{
+     from {transform: translateY(0);}
+     to   {transform: translateY(-20px);}
+}
+  
+
+
+.flex {
+  /* style basique */
+  width: 1200px;
+  height: 1200px;
+  border: 15px solid white;
+  border-radius: 25px;
+
+  /* instaure la flexbox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-image: url(img/rules.jpg);
+  background-repeat: no-repeat;
+  background-size: 1200px 1200px;
+}
+

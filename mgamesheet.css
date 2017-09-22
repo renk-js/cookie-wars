@@ -1,0 +1,87 @@
+body {
+  vertical-align: middle;
+  background-image: url(img/eboy01.gif);
+  background-repeat: no-repeat;
+  background-size: 3200px 3200px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: floralwhite;
+  font-size: 90px;
+  font-family: bungee shade;
+  margin-top: 10px;
+}
+
+.container {
+  /* style basique */
+  width: 1200px;
+  height: 1200px;
+  border: 15px solid white;
+  border-radius: 25px;
+
+  /* instaure la flexbox */
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-image: url(img/gametemplate.jpg);
+  background-repeat: no-repeat;
+  background-size: 1200px 1200px;
+}
+
+#img-choice {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#question {
+  margin: 30px 0;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 75px;
+  font-family: 'khand';
+}
+
+#koreaimage {
+  height: 20px;
+  width: 20px;
+}
+
+#scores {
+  width: 85%;
+  font-size: 60px;
+  bottom: 0px;
+  margin: -50px;
+  font-family: 'khand';
+  font-weight: bold;
+}
+
+#scores .player2 {
+  float: right;
+}
+
+
+.cookies.player1 {
+  position: relative;
+  right: 500px;
+  top: -115px;
+}
+
+
+.cookies.player2 {
+  position: relative;
+  left: 490px;
+  top:-1132px;
+
+}
